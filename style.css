@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+}
+
+#app {
+    margin: 0;
+    padding: 20px 0px;
+    /* font-size: 32px; */
+    text-align: center;
+}
+
+#header {
+    display: flex;
+}
+
+#hrHead {
+
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:darkblue;
+    margin: 0;
+}
+
+.headingDiv {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.heading {
+    color: rgb(39, 37, 37);
+}
+
+/* .amount {
+} */
+
+#addNew {
+    position: fixed;
+    top: 89%;
+    left: 93%;
+}
+
+#addNew :hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+#list {
+    /* margin-left:10% ; */
+    padding-left: 10%;
+
+}
+
+.para {
+    text-align: left;
+    width: 65%;
+    /* float: left; */
+}
+
+.expenseColor {
+    font-size: 30px;
+    color: red;
+}
+
+.incomeColor {
+    font-size: 30px;
+    color: green;
+}
+
+.expenseIncome {
+    width: 10%;
+    font-size: 24px;
+}
+
+.hr {
+    width: 95%;
+    background-color: black;
+    margin: 0;
+    height: 5px;
+    color: white;
+}
+
+.font {
+    font-size: 22px;
+    padding: 6px;
+    margin: 0px 64px;
+    margin-right: 0px;
+}
+
+.font12 {
+    font-size: 22px;
+    padding: 6px;
+    margin: 0px 64px;
+    margin-right: 0px;
+}
+
+.font1 {
+    display: flex;
+    float: right;
+}
+
+i:hover {
+    cursor: pointer;
+}
