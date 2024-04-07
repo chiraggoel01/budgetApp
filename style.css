@@ -110,3 +110,9 @@
 i:hover {
     cursor: pointer;
 }
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
