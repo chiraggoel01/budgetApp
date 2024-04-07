@@ -11,9 +11,9 @@
     text-align: center;
 }
 
-#header {
+/* #header {
     display: flex;
-}
+} */
 
 #hrHead {
 
@@ -109,4 +109,10 @@
 
 i:hover {
     cursor: pointer;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
 }
